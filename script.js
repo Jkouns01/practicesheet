@@ -47,7 +47,7 @@ window.onload= function(){
         appendSeconds.innerHTML+ seconds;
     }
     
-    }
+    }1000;
     
     
-    }
+    } 
