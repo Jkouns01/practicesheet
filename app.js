@@ -2,10 +2,11 @@
 (function() {
 
     // add query selectors for screen, buttons, clear and equal. attach to matching class
-    let buttons = document.addQuerySelector(".btn");
-    let screen = document.addQuerySelector(".screen");
-    let clear = document.addQuerySelector(".btn-clear");
-    let equal = document.addEventListener('.btn-equal');
+    let screen = document.querySelector('.screen');
+    // must use querySelectorAll for buttons
+  let buttons = document.querySelectorAll('.btn');
+  let clear = document.querySelector('.btn-clear');
+  let equal = document.querySelector('.btn-equal');
 
     //retrieve data from numbers that are clicked
     // use forEach(function(button))
